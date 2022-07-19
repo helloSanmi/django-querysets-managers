@@ -2,7 +2,7 @@ import imp
 from django.shortcuts import render
 from django.utils import timezone
 
-from links.serialiers import LinkSerializer
+from links.serializers import LinkSerializer
 from .models import Link
 from . import models
 from . import serializers
