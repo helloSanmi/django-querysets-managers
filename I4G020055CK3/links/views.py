@@ -4,8 +4,7 @@ from django.utils import timezone
 
 from links.serializers import LinkSerializer
 from .models import Link
-from . import models
-from . import serializers
+from . import models, serializers
 from rest_framework.generics import ListAPIView,CreateAPIView,RetrieveAPIView,UpdateAPIView,DestroyAPIView
 from rest_framework.views import APIView
 from rest_framework.response import Response
